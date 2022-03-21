@@ -16,8 +16,12 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
   - Ingressar em uma Reunião
   - Postar Solução de Atividades/Tarefas
   - Enviar mensagem no Chat
- 
-- Já no segundo caso com o Professor, o ator também pode fazer 3 ações principais, como:
+  Correspondência entre o sistema e o mundo real
+- Já no segundo caso com o Professor, o ator ta3: Controle e liberdade do usuáriobém pode fazer 3 ações principais, com:
+- Heurística 4: Consistência e padrões
+- Heurística 6: Reconhecimento em vez de lembrança
+- Heurística 4: Consistência e padrões
+- Heurística 4: Consistência e padrões
   - Criar uma Atividade/Tarefa
   - Enviar mensagem no Chat
   - Criar uma Reunião
@@ -25,16 +29,21 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
 ### 2 - User Stories 
   
 ## Não-Funcionais 
- 
- ![TELA 1](https://user-images.githubusercontent.com/66873418/159191536-dd753398-af9a-4618-bee5-544ea6e15848.png)
- ![TELA 2](https://user-images.githubusercontent.com/66873418/159192206-59f4a20b-4ba0-400b-a550-ab2ea86724a0.png)
- ![TELA 3](https://user-images.githubusercontent.com/66873418/159194130-c7ed464d-3e5a-4777-82fc-f6bca91bb276.png)
+### TELA 1 - TAREFAS
+![TELA 1](https://user-images.githubusercontent.com/66873418/159191536-dd753398-af9a-4618-bee5-544ea6e15848.png)
+### TELA 2 - DISCIPLINAS
+![TELA 2](https://user-images.githubusercontent.com/66873418/159192206-59f4a20b-4ba0-400b-a550-ab2ea86724a0.png)
+### TELA 3 - MENU
+![TELA 3](https://user-images.githubusercontent.com/66873418/159194130-c7ed464d-3e5a-4777-82fc-f6bca91bb276.png)
 
+- Com essas telas, podemos visualizar exemplos da Heurísticas:
+  - Heurística 2: Correspondência entre o sistema e o mundo real 
+  - Heurística 3: Controle e liberdade do usuário
+  - Heurística 4: Consistência e padrões
+  - Heurística 6: Reconhecimento em vez de lembrança
+  - Heurística 8: Design estético e minimalista
+  - Heurística 10: Ajuda e documentação
 
-
- 
- usabilidade
- (10 heuristicas)
 # Projeto
 - Diagrama de Classes
 
