@@ -25,6 +25,10 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
 ### 2 - User Stories 
   
 ## Não-Funcionais 
+ 
+ ![TELA 1](https://user-images.githubusercontent.com/66873418/159191536-dd753398-af9a-4618-bee5-544ea6e15848.png)
+
+ 
  usabilidade
  (10 heuristicas)
 # Projeto
