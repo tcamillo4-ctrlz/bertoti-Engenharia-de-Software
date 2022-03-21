@@ -18,10 +18,6 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
   - Enviar mensagem no Chat
   Correspondência entre o sistema e o mundo real
 - Já no segundo caso com o Professor, o ator ta3: Controle e liberdade do usuáriobém pode fazer 3 ações principais, com:
-- Heurística 4: Consistência e padrões
-- Heurística 6: Reconhecimento em vez de lembrança
-- Heurística 4: Consistência e padrões
-- Heurística 4: Consistência e padrões
   - Criar uma Atividade/Tarefa
   - Enviar mensagem no Chat
   - Criar uma Reunião
