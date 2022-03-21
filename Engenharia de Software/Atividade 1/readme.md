@@ -32,7 +32,7 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
 ### TELA 3 - MENU
 ![TELA 3](https://user-images.githubusercontent.com/66873418/159194130-c7ed464d-3e5a-4777-82fc-f6bca91bb276.png)
 
-- Com essas telas, podemos visualizar exemplos da Heurísticas:
+- Com essas telas, podemos visualizar exemplos das Heurísticas:
   - Heurística 2: Correspondência entre o sistema e o mundo real 
   - Heurística 3: Controle e liberdade do usuário
   - Heurística 4: Consistência e padrões
