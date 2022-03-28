@@ -6,7 +6,11 @@ Tiago Camillo - RA: 1460282123004
 
 # Requisitos
 ## Funcionais 
-### 1 - Casos de Uso 
+- O projeto da Plataforma de Ensino possui como Requisitos Funcionais:
+  - Ingressar/Criar Reuniões;
+  - Enviar/Receber Mensagens;
+  - Criar/Entregar Atividades.
+## 1 - Casos de Uso 
   
   ![Requisitos Funcionais Microsoft Teams drawio (2)](https://user-images.githubusercontent.com/66873418/158273537-320d0a5a-e0cd-49ac-a01e-98aefed312de.png)
 
