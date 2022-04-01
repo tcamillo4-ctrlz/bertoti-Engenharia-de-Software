@@ -59,7 +59,10 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
   - Heurística 10: Ajuda e documentação
 
 # Projeto
-- Diagrama de Classes
+## Diagrama de Classes - Exemplo Plataforma de Ensino
+![DiagramaClasse](https://user-images.githubusercontent.com/66873418/161350049-1ebd98da-82ba-4f10-b87e-953502e10d7f.jpg)
+
+
 
 # Desenvolvimento
 - <Classe + Código igual slides>
