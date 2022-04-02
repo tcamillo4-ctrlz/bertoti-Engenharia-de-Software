@@ -65,4 +65,11 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
 
 
 # Desenvolvimento
-- <Classe + Código igual slides>
+## Classe PlataformaEnsino
+![PlataformaEnsino](https://user-images.githubusercontent.com/66873418/161358216-31ac770d-d227-416c-b9c3-3890f69406e1.jpg)
+
+## Classe Pessoa
+![Pessoa](https://user-images.githubusercontent.com/66873418/161358226-64099206-47ab-4bee-ac5f-45823072b6ba.jpg)
+
+## Classe Disciplina
+![Disciplina](https://user-images.githubusercontent.com/66873418/161358231-06393093-f2a9-42f9-bbaa-9581a2c08539.jpg)
