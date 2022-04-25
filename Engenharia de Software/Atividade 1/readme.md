@@ -30,6 +30,12 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
 ### 2 - User Stories 
   
 ## Não-Funcionais 
+- O projeto da Plataforma de Ensino possui como Requisitos Não-Funcionais:
+  - Anexar e deletar arquivo;
+  - Comunicar com áudio, mensagem e vídeo;
+  - Compartilhar a tela e seu áudio;
+  - Ter informações sobre as atividades.
+
 ### TELA 1 - TAREFAS
 ![TELA 1](https://user-images.githubusercontent.com/66873418/159191536-dd753398-af9a-4618-bee5-544ea6e15848.png)
 - Na tela de Tarefas, é possível identificar as seguintes heurísticas:
