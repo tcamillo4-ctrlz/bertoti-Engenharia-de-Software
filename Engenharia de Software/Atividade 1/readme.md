@@ -28,6 +28,7 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
   - Criar uma Reunião
 
 ### 2 - User Stories 
+![Cards](https://user-images.githubusercontent.com/66873418/166340743-b46487be-64b0-479f-8c4a-ba2974e8a33b.jpg)
   
 ## Não-Funcionais 
 - O projeto da Plataforma de Ensino possui como Requisitos Não-Funcionais:
