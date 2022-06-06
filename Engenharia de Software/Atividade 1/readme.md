@@ -22,7 +22,7 @@ O Diagrama de Casos de Uso é composto por dois atores, Aluno e Professor, e sua
   - Postar Solução de Atividades/Tarefas
   - Enviar mensagem no Chat
   Correspondência entre o sistema e o mundo real
-- Já no segundo caso com o Professor, o ator ta3: Controle e liberdade do usuáriobém pode fazer 3 ações principais, com:
+- Já no segundo caso com o Professor, o ator pode fazer 3 ações principais, como:
   - Criar uma Atividade/Tarefa
   - Enviar mensagem no Chat
   - Criar uma Reunião
