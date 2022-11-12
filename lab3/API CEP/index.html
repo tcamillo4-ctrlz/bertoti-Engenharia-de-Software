@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>API CEP</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                Index.init();
+            });
+        </script>
+
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+			<div class="wrap-login100">
+					<span class="login100-form-title p-b-34 p-t-27">
+						API CEP
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Digite o CEP">
+						<input class="input100" type="text" id="txtCEP" name="txtCEP" placeholder="CEP">
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" id="btnCEP">
+							BUSCAR CEP
+						</button>
+					</div>
+
+					<br>
+
+					<div class="loading" style="display: none;">
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" type="text" id="txtEndereco" placeholder="Endereço" disabled>
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" type="text" id="txtCidade" placeholder="Cidade" disabled>
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" type="text" id="txtBairro" placeholder="Bairro" disabled>
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" type="text" id="txtUF" placeholder="Estado" disabled>
+					</div>
+
+			</div>	
+		</div>
+	</div>
+
+</body>
+</html>
