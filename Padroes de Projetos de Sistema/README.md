@@ -1,3 +1,7 @@
-Tiago Camillo - RA: 1460282123004
+Tiago Camillo
 
-# Atividade referente a aula de Padrões de Projetos de Sistema
+## Atividade - Padrões de Projetos de Sistema
+
+Tipos de Padrões de Projetos utilizados:
+- Strategy
+- Observer
