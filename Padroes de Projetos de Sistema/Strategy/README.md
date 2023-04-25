@@ -1,4 +1,4 @@
 # Strategy
 ## Diagrama UML
 
-![DiagramaStrategy](https://user-images.githubusercontent.com/66873418/224865428-294aa5e0-adfc-41ce-886c-5cc1c5f12fec.jpg)
+![DiagramaStrategy (1)](https://user-images.githubusercontent.com/66873418/234148506-9e249f93-0684-47c3-83a1-4618b4f6ab4e.jpg)
