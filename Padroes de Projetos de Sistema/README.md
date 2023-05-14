@@ -5,3 +5,4 @@ Tiago Camillo
 Tipos de Padrões de Projetos utilizados:
 - Strategy
 - Observer
+- Composite
