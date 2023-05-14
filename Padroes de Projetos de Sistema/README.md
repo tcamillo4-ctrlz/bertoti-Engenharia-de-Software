@@ -7,3 +7,4 @@ Tipos de Padrões de Projetos utilizados:
 - Observer
 - Composite
 - Singleton
+- Facade
