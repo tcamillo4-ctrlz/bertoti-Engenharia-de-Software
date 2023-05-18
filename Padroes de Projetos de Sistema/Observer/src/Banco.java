@@ -1,14 +1,11 @@
-package observer;
-
 import java.util.ArrayList;
 
+public class Banco implements Subject{
 
-public class Posto implements Subject{
-	
 	private ArrayList observers;
-	private Carro c;
+	private Cliente c;
 	
-	public Posto(){
+	public Banco(){
 		observers = new ArrayList();
 	}
 	
@@ -23,20 +20,20 @@ public class Posto implements Subject{
 		}
 	}
 	
-	public void notifyObservers(boolean novoTanque){
+	public void notifyObservers(double novoSaldo){
 		for (int i = 0; i < observers.size(); i++) {
 			Observer observer = (Observer)observers.get(i);
-			observer.update(novoTanque);
+			observer.update(novoSaldo);
 		}
 	}
 	
-	public boolean encherTanque(Carro c, boolean tanque){
+	public double sacar(Cliente c, double valor){
 		
-		c.tanque = true;
+		c.saldo = c.saldo - valor;
 		
-		notifyObservers(c.tanque);
-		return c.tanque;
+		notifyObservers(c.saldo);
+		return c.saldo;
 		
 	}
-
+	
 }
