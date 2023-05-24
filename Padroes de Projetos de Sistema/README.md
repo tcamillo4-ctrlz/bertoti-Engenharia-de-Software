@@ -12,10 +12,10 @@ Tipos de Padrões de Projetos utilizados:
 
 <table>
   <tr>
-    <td>Padrão</td>
-    <td>Anti-Padrão</td>
-    <td>Descrição</td>
-    <td>Problema que resolve</td>
+    <td><b>Padrão</b></td>
+    <td><b>Anti-Padrão</b></td>
+    <td><b>Descrição</b></td>
+    <td><b>Problema que resolve</b></td>
   </tr>
   <tr>
     <td>Strategy</td>
