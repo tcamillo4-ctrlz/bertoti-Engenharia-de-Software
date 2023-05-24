@@ -1,5 +1,5 @@
 public interface Observer {
 
-	public void update(double saldo);
-
+	public void consulta(Aluno aluno);
+	
 }

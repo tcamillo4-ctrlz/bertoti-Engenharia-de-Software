@@ -1,17 +1,15 @@
-
 public class Main {
 
 	public static void main(String[] args) {
-		Banco b = new Banco();
-		TelaCaixa tela = new TelaCaixa();
-		TelaCelular cel = new TelaCelular();
-		b.registerObserver(tela);
-		b.registerObserver(cel);
+		Portal portal = new Portal();
+		TelaDesktop desktop = new TelaDesktop();
+		TelaMobile mobile = new TelaMobile();
+		portal.registerObserver(desktop);
+		portal.registerObserver(mobile);
 		
-		Cliente marilia = new Cliente(500.0, "76767A", "njvd98078");
+		Aluno aluno = new Aluno("Tiago", 8.5);
 		
-		marilia.saldo = b.sacar(marilia, 200.0);
-
+		portal.consultar(aluno);
 	}
 
 }
