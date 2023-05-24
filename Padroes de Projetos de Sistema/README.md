@@ -37,9 +37,9 @@ Tipos de Padrões de Projetos utilizados:
   </tr>
   <tr>
     <td>Singleton</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Diversas instâncias da mesma classe</td>
+    <td>Garante que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância</td>
+    <td>Várias instâncias de uma mesma classe e Sobrescrição de instância</td>
   </tr>
   <tr>
     <td>Facade</td>
