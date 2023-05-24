@@ -31,9 +31,9 @@ Tipos de Padrões de Projetos utilizados:
   </tr>
   <tr>
     <td>Composite</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Tratamento diversificado de classes</td>
+    <td>Permite tratar objetos individuais (Leaf) e grupos de objetos (Composite) de maneira uniforme, como elementos da mesma estrutura hierárquica</td>
+    <td>Tratamento de classes Leaf e Composite de formas diferentes</td>
   </tr>
   <tr>
     <td>Singleton</td>
