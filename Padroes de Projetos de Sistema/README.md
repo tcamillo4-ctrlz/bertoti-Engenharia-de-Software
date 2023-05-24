@@ -43,8 +43,8 @@ Tipos de Padrões de Projetos utilizados:
   </tr>
   <tr>
     <td>Facade</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Classe Fachada sobrecarregada de funcionalidades/responsabilidades</td>
+    <td>Fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes</td>
+    <td>Complexidade e falta de simplicidade com conjunto de classes</td>
   </tr>
 </table>
