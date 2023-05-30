@@ -20,7 +20,7 @@ Tenho utilizado a linguagem de programação Java durante todo o meu tempo de gr
 
 Projeto Integrador tem o objetivo de solucionar um problema da realidade, trazido por alguma empresa em acordo com a entidade de ensino, utilizando os conhecimentos adquiridos durante a graduação.
 
-Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizaos extraídos de cada um deles.
+Abaixo está listado o projeto desenvolvido no 3º Semestre da graduação, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos dele.
 
 # Projeto 3: 2º Semestre de 2022 
 
