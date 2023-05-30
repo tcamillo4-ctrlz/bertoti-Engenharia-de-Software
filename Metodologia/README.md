@@ -24,6 +24,10 @@ Abaixo está listado o projeto desenvolvido no 3º Semestre da graduação, deta
 
 # Projeto 3: 2º Semestre de 2022 
 
+### Reposiório do Projeto
+
+[IACIT - Fluffy Fatec](https://github.com/fluffyfatec/Iacit)
+
 ### Parceiro Acadêmico
 
 IACIT Soluções Tecnológicas
@@ -38,19 +42,27 @@ Como solução, a equipe desenvolveu um software web para a empresa, que possibi
 
 #### Java - Spring Boot
 
-A linguagem Java
+A linguagem Java foi utilizada em praticamente todo o back-end da aplicação. Junto com o framework Spring Boot, foram desenvolvidas, com a linguagem, diversas funcionalidades da aplicação, como a configuração da lógica para a utilização dos dados armazenados no banco de dados, o desenvolvimento de toda a API do sistema para que os dados possam ser consumidos pelo front-end, as funções de CRUD (Create, Read, Update, Delete) do usúario, e a segurança da aplicação via token.  
+
+Para saber mais: [Java](https://www.java.com)
 
 #### Python
 
-A linguagem Python
+A linguagem Python foi utilizada para a automatização do tratamento de dados da aplicação. Com ela, foi feito desde o download dos arquivos CSVs, originados do [Portal INMET](https://portal.inmet.gov.br), efetuando a descompactação dos arquivos, tratamento de todos os dados meteorológicos, e a inserção desses dados no banco de dados. Tudo de forma automatizada pela rotina de tarefas desenvolvidas na linguagem.
+
+Para saber mais: [Python](https://www.python.org)
 
 #### JavaScript
 
-A linguagem JavaScript
+A linguagem JavaScript foi utilizada em grande parte do front-end da aplicação. Com ela foi efetuada a utilização dos dados enviados do back-end para o front-end, desenvolvendo gráficos, tabelas e outras formas de visualização de dados para o usuário. Além de ser utilizada para deixar as telas da aplicação de forma dinâmica, fazendo com que elas sejam responsivas com as ações tomadas pelo usuário e os dados atuais do banco de dados.
+
+Para saber mais: [JavaScript](https://www.javascript.com)
 
 #### PostgreSQL
 
-O SGDB (Sistema Gerenciador de Banco de Dados) PostgreSQL
+O SGDB (Sistema Gerenciador de Banco de Dados) PostgreSQL foi utilizado para o armazenamento dos dados automatizados pelo Python. Com ele, foram feitas as criações de tabelas, views e triggers do banco de dados da aplicação, e era feito o gerenciamento dos dados.
+
+Para saber mais: [PostgreSQL](https://www.postgresql.org)
 
 ### Contribuições Pessoais
 
