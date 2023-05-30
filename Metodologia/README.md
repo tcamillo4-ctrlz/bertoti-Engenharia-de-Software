@@ -36,6 +36,28 @@ Como solução, a equipe desenvolveu um software web para a empresa, que possibi
 
 ### Tecnologias Adotadas na Solução
 
+#### Java - Spring Boot
+
+A linguagem Java
+
+#### Python
+
+A linguagem Python
+
+#### JavaScript
+
+A linguagem JavaScript
+
+#### PostgreSQL
+
+O SGDB (Sistema Gerenciador de Banco de Dados) PostgreSQL
+
 ### Contribuições Pessoais
+
+Fui responsável pela programação do front-end da aplicação, que se consistia em consumir os dados gerados pelo back-end através de API e gerar uma interface para o usuário poder utilizar a aplicação.
+
+Por estar focado nesta parte do projeto, fui encarregado, junto com a equipe de front-end, de estudar e desenvolver as telas da aplicação. Com isso, foram definidos os layouts de cada tela, desenvolvidos gráficos, tabelas e filtros dinâmicos, todos utilizando os dados consumidos do back-end.
+
+O desenvolvimento das telas contou com a linguagem de marcação HTML, junto com a estilização em CSS. A parte lógica da aplicação contou com JavaScript, e em algumas situações, a técnica AJAX.
 
 ### Aprendizados Efetivos (Hard Skills)
