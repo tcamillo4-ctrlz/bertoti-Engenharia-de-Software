@@ -24,6 +24,10 @@ Abaixo está listado o projeto desenvolvido no 3º Semestre da graduação, deta
 
 # Projeto 3: 2º Semestre de 2022 
 
+### Reposiório do Projeto
+
+[IACIT - Fluffy Fatec](https://github.com/fluffyfatec/Iacit)
+
 ### Parceiro Acadêmico
 
 IACIT Soluções Tecnológicas
@@ -36,6 +40,40 @@ Como solução, a equipe desenvolveu um software web para a empresa, que possibi
 
 ### Tecnologias Adotadas na Solução
 
+#### Java - Spring Boot
+
+A linguagem Java foi utilizada em praticamente todo o back-end da aplicação. Junto com o framework Spring Boot, foram desenvolvidas, com a linguagem, diversas funcionalidades da aplicação, como a configuração da lógica para a utilização dos dados armazenados no banco de dados, o desenvolvimento de toda a API do sistema para que os dados possam ser consumidos pelo front-end, as funções de CRUD (Create, Read, Update, Delete) do usúario, e a segurança da aplicação via token.  
+
+Para saber mais, acesse: [Java](https://www.java.com)
+
+#### Python
+
+A linguagem Python foi utilizada para a automatização do tratamento de dados da aplicação. Com ela, foi feito desde o download dos arquivos CSVs, originados do [Portal INMET](https://portal.inmet.gov.br), efetuando a descompactação dos arquivos, tratamento de todos os dados meteorológicos, e a inserção desses dados no banco de dados. Tudo de forma automatizada pela rotina de tarefas desenvolvidas na linguagem.
+
+Para saber mais, acesse: [Python](https://www.python.org)
+
+#### JavaScript
+
+A linguagem JavaScript foi utilizada em grande parte do front-end da aplicação. Com ela foi efetuada a utilização dos dados enviados do back-end para o front-end, desenvolvendo gráficos, tabelas e outras formas de visualização de dados para o usuário. Além de ser utilizada para deixar as telas da aplicação de forma dinâmica, fazendo com que elas sejam responsivas com as ações tomadas pelo usuário e os dados atuais do banco de dados.
+
+Para saber mais, acesse: [JavaScript](https://www.javascript.com)
+
+#### PostgreSQL
+
+O SGDB (Sistema Gerenciador de Banco de Dados) PostgreSQL foi utilizado para o armazenamento dos dados automatizados pelo Python. Com ele, foram feitas as criações de tabelas, views e triggers do banco de dados da aplicação, e era feito o gerenciamento dos dados.
+
+Para saber mais, acesse: [PostgreSQL](https://www.postgresql.org)
+
 ### Contribuições Pessoais
 
-### Aprendizados Efetivos (Hard Skills)
+Fui responsável pela programação do front-end da aplicação, que se consistia em consumir os dados gerados pelo back-end através de API e gerar uma interface para o usuário poder utilizar a aplicação.
+
+Por estar focado nesta parte do projeto, fui encarregado, junto com a equipe de front-end, de estudar e desenvolver as telas da aplicação. Com isso, foram definidos os layouts de cada tela, desenvolvidos gráficos, tabelas e filtros dinâmicos, todos utilizando os dados consumidos do back-end.
+
+O desenvolvimento das telas contou com a linguagem de marcação HTML, junto com a estilização em CSS. A parte lógica da aplicação contou com JavaScript, e em algumas situações, a técnica AJAX.
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
+Com o desenvolvimento desse projeto, pude ter a oportunidade de me desenvolver de várias formas, tanto no âmbito acadêmico, como também no profissional e pessoal. Devido a essa experiência, tive o aprendizado e o aperfeiçoamento em áreas como a colaboração/trabalho em equipe, comunicação entre os membros do grupo, a utilização do pensamento crítico, a capacidade de resolução de problemas e a gestão do tempo. Todas essas habilidades foram necessárias para que o grupo pudesse concluir o projeto de forma positiva e eficaz, entregando a solução do projeto. Essas "soft skills" são responsáveis por manter o grupo alinhado e trabalhando junto, cada um com a sua função específica, para que podessemos avançar nas etapas e nos desafios do projeto.
+
+Juntos com elas, também se pode ressaltar algumas "hard skills" exigidas para esse projeto, como o conhecimento ligado ao desenvolvimento web, a gestão do banco de dados, configuração de segurança da aplicação, como também o desenvolvimento de usuário e interface do usuário, e a administração do sistema desenvolvido. Essas habilidades foram relevantes para a parte prática do projeto em si e, com a busca de materiais e trabalho em equipe, cada uma foi aperfeiçoada nesse tempo de desenvolvimento, resultando numa conclusão correta do sistema.
