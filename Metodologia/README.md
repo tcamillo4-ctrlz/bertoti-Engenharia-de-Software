@@ -72,4 +72,8 @@ Por estar focado nesta parte do projeto, fui encarregado, junto com a equipe de 
 
 O desenvolvimento das telas contou com a linguagem de marcação HTML, junto com a estilização em CSS. A parte lógica da aplicação contou com JavaScript, e em algumas situações, a técnica AJAX.
 
-### Aprendizados Efetivos (Hard Skills)
+### Aprendizados Efetivos (Soft e Hard Skills)
+
+Com o desenvolvimento desse projeto, pude ter a oportunidade de me desenvolver de várias formas, tanto no âmbito acadêmico, como também no profissional e pessoal. Devido a essa experiência, tive o aprendizado e o aperfeiçoamento em áreas como a colaboração/trabalho em equipe, comunicação entre os membros do grupo, a utilização do pensamento crítico, a capacidade de resolução de problemas e a gestão do tempo. Todas essas habilidades foram necessárias para que o grupo pudesse concluir o projeto de forma positiva e eficaz, entregando a solução do projeto. Essas "soft skills" são responsáveis por manter o grupo alinhado e trabalhando junto, cada um com a sua função específica, para que podessemos avançar nas etapas e nos desafios do projeto.
+
+Juntos com elas, também se pode ressaltar algumas "hard skills" exigidas para esse projeto, como o conhecimento ligado ao desenvolvimento web, a gestão do banco de dados, configuração de segurança da aplicação, como também o desenvolvimento de usuário e interface do usuário, e a administração do sistema desenvolvido. Essas habilidades foram relevantes para a parte prática do projeto em si e, com a busca de materiais e trabalho em equipe, cada uma foi aperfeiçoada nesse tempo de desenvolvimento, resultando numa conclusão correta do sistema.
