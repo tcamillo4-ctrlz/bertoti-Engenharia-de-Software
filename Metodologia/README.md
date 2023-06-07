@@ -24,6 +24,8 @@ Abaixo está listado o projeto desenvolvido no 3º Semestre da graduação, deta
 
 # Projeto 3: 2º Semestre de 2022 
 
+
+
 ### Reposiório do Projeto
 
 [IACIT - Fluffy Fatec](https://github.com/fluffyfatec/Iacit)
@@ -37,6 +39,13 @@ IACIT Soluções Tecnológicas
 O desafio foi estipulado como desenvolver um sistema que permita realizar a importação dos dados meteorológicos, bem como armazená-los em uma base de dados, para posteriormente gerar os relatórios desejados por nossos clientes.
 
 Como solução, a equipe desenvolveu um software web para a empresa, que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada. Também é possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. E por último, foram desenvolvidos diferentes níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
+
+Representação da solução do projeto:
+
+<p align="center">
+      <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
+<p align="center">
+
 
 ### Tecnologias Adotadas na Solução
 
@@ -72,6 +81,123 @@ Por estar focado nesta parte do projeto, fui encarregado, junto com a equipe de 
 
 O desenvolvimento das telas contou com a linguagem de marcação HTML, junto com a estilização em CSS. A parte lógica da aplicação contou com JavaScript, e em algumas situações, a técnica AJAX.
 
+Exemplos de etapas do desenvolvimento do projeto:
+
+
+<details open>
+<summary>Geração de gráficos</summary>
+<br>
+
+```js
+const ctx = document.getElementById('graficoTemperatura');
+const myChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      datasets: [{
+          label: 'Temperatura',
+          data: [12, 19, 3, 5, 2, 3],
+          backgroundColor: [
+              'rgba(255, 99, 132, 0.2)','rgba(54, 162, 235, 0.2)','rgba(255, 206, 86, 0.2)',
+              'rgba(75, 192, 192, 0.2)','rgba(153, 102, 255, 0.2)','rgba(255, 159, 64, 0.2)'],
+          borderColor: [
+              'rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1)',
+              'rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'],
+          fill: 1
+      }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: { beginAtZero: false }
+    }}
+});
+```
+
+</details>
+
+<details>
+<summary>Exibição de gráficos</summary>
+<br>
+
+``` html
+<div th:replace="~{fragmentCards :: Cards}"></div>
+    <div class="row">
+        <section class="col-lg-12 connectedSortable">
+            <div th:replace="~{fragmentGraficos :: graficoTemperaturaBar}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoTemperaturaLinha}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoUmidadeLinha}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoUmidadeBar}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoVentoLinha}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoVentoBar}"></div>             
+        </section>
+    </div>
+</div>
+```
+
+</details>
+
+<details>
+<summary>Geração de Tabelas</summary>
+<br>
+
+``` js
+var $table = document.getElementById("tabelaPressao"),
+$n = 16,
+$rowCount = $table.rows.length,
+$firstRow = $table.rows[0].firstElementChild.tagName,
+$hasHead = ($firstRow === "TH"),
+$tr = [],
+$i,$ii,$j = ($hasHead)?1:0,
+$th = ($hasHead?$table.rows[(0)].outerHTML:"");
+var $pageCount = Math.ceil($rowCount / $n);
+
+if ($pageCount > 1) {
+  for ($i = $j,$ii = 0; $i < $rowCount; $i++, $ii++)
+    $tr[$ii] = $table.rows[$i].outerHTML;
+  $table.insertAdjacentHTML("afterend","<div id='buttons'></div");
+  sort(1);
+}
+
+function sort($p) {
+  var $rows = $th,$s = (($n * $p)-$n);
+  for ($i = $s; $i < ($s+$n) && $i < $tr.length; $i++)
+    $rows += $tr[$i];
+  
+  $table.innerHTML = $rows;
+  document.getElementById("buttons").innerHTML = pageButtons($pageCount,$p);
+  document.getElementById("id"+$p).setAttribute("class","chart");
+}
+
+function pageButtons($pCount,$cur) {
+  var $prevDis = ($cur == 1)?"disabled":"",
+    $nextDis = ($cur == $pCount)?"disabled":"",
+    $buttons = "<input class='chart' type='button' value='&lt;&lt; Anterior' onclick='sort("+($cur - 1)+")' "+$prevDis+">";
+  for ($i=1; $i<=$pCount;$i++)
+    $buttons += "<input  class='chart' type='button' id='id"+$i+"'value='"+$i+"' onclick='sort("+$i+")'>";
+  $buttons += "<input class='chart' type='button' value='Próximo &gt;&gt;' onclick='sort("+($cur + 1)+")' "+$nextDis+">";
+  return $buttons;
+}
+```
+
+</details>
+
+<details>
+<summary>Filtros dinâmicos</summary>
+
+``` html
+<select class="form-control" id="jsAjaxFiltro" onchange="filtroEstacao()" required>
+    <option value="" selected>Escolha a Estação...</option>
+    <option value="estacao" th:each="zz : ${filtroEstacao}">[[${zz.estacaoNome}]]</option>
+</select>
+```
+
+
+</details>
+
+
+
+
 ### Aprendizados Efetivos (Soft e Hard Skills)
 
 Com o desenvolvimento desse projeto, pude ter a oportunidade de me desenvolver de várias formas, tanto no âmbito acadêmico, como também no profissional e pessoal. Dentre estas oportunidades, destacam-se:
@@ -87,7 +213,7 @@ Juntos com elas, também se pode ressaltar algumas "hard skills" exigidas para e
 - Conhecimento ligado ao desenvolvimento web;
 - Gestão do banco de dados;
 - Configuração de segurança da aplicação;
-- Desenvolvimento de usuário e interface do usuário,;
+- Desenvolvimento de usuário e interface do usuário;
 - Administração do sistema desenvolvido. 
 
 Essas habilidades foram relevantes para a parte prática do projeto em si e, com a busca de materiais e trabalho em equipe, cada uma foi aperfeiçoada nesse tempo de desenvolvimento, resultando numa conclusão correta do sistema.
