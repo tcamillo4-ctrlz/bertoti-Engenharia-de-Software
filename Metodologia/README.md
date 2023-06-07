@@ -24,7 +24,7 @@ Abaixo está listado o projeto desenvolvido no 3º Semestre da graduação, deta
 
 # Projeto 3: 2º Semestre de 2022 
 
-
+<img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/cabecario (3).jpg" width="60%" height="55%">
 
 ### Reposiório do Projeto
 
@@ -42,9 +42,7 @@ Como solução, a equipe desenvolveu um software web para a empresa, que possibi
 
 Representação da solução do projeto:
 
-<p align="center">
-      <img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="100%" height="100%">
-<p align="center">
+<img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="60%" height="55%">
 
 
 ### Tecnologias Adotadas na Solução
