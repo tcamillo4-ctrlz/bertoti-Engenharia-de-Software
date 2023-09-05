@@ -4,7 +4,7 @@
 
 Olá, seja bem-vindo! Sou o Tiago Camillo, estudante de Banco de Dados pela FATEC São José dos Campos - Prof. Jessen Vidal.
 
-Tenho 19 anos e trabalho como Analista de Negócios Júnior.
+Tenho 20 anos e trabalho como Analista de Negócios Júnior.
 
 ### Meus principais conhecimentos
 
@@ -20,7 +20,35 @@ Tenho utilizado a linguagem de programação Java durante todo o meu tempo de gr
 
 Projeto Integrador tem o objetivo de solucionar um problema da realidade, trazido por alguma empresa em acordo com a entidade de ensino, utilizando os conhecimentos adquiridos durante a graduação.
 
-Abaixo está listado o projeto desenvolvido no 3º Semestre da graduação, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos dele.
+Abaixo estão listados os projetos desenvolvidos durante a graduação, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos dele.
+
+# Projeto 1: 2º Semestre de 2021 
+
+### Reposiório do Projeto
+
+### Parceiro Acadêmico
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
+# Projeto 2: 1º Semestre de 2022 
+
+### Reposiório do Projeto
+
+### Parceiro Acadêmico
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
 
 # Projeto 3: 2º Semestre de 2022 
 
@@ -193,9 +221,6 @@ function pageButtons($pCount,$cur) {
 
 </details>
 
-
-
-
 ### Aprendizados Efetivos (Soft e Hard Skills)
 
 Com o desenvolvimento desse projeto, pude ter a oportunidade de me desenvolver de várias formas, tanto no âmbito acadêmico, como também no profissional e pessoal. Dentre estas oportunidades, destacam-se:
@@ -215,3 +240,32 @@ Juntos com elas, também se pode ressaltar algumas "hard skills" exigidas para e
 - Administração do sistema desenvolvido. 
 
 Essas habilidades foram relevantes para a parte prática do projeto em si e, com a busca de materiais e trabalho em equipe, cada uma foi aperfeiçoada nesse tempo de desenvolvimento, resultando numa conclusão correta do sistema.
+
+# Projeto 4: 1º Semestre de 2023 
+
+### Reposiório do Projeto
+
+### Parceiro Acadêmico
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
+# Projeto 5: 2º Semestre de 2023 
+
+### Reposiório do Projeto
+
+### Parceiro Acadêmico
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
