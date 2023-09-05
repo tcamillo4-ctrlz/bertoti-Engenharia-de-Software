@@ -22,11 +22,19 @@ Projeto Integrador tem o objetivo de solucionar um problema da realidade, trazid
 
 Abaixo estão listados os projetos desenvolvidos durante a graduação, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos dele.
 
+
+
 # Projeto 1: 2º Semestre de 2021 
+
+<img src="https://github.com/fluffyfatec/SPanel/blob/main/Sprint_2/assets/logospanel3.png" width="60%" height="55%">
 
 ### Reposiório do Projeto
 
+[SPANEL - Fluffy Fatec](https://github.com/fluffyfatec/SPanel)
+
 ### Parceiro Acadêmico
+
+Interno
 
 ### Visão do Projeto
 
@@ -35,12 +43,20 @@ Abaixo estão listados os projetos desenvolvidos durante a graduação, detalhan
 ### Contribuições Pessoais
 
 ### Aprendizados Efetivos (Soft e Hard Skills)
+
+
 
 # Projeto 2: 1º Semestre de 2022 
 
+<img src="https://github.com/fluffyfatec/Dom_Rock/blob/main/GIT/cabecario2.jpg" width="60%" height="55%">
+
 ### Reposiório do Projeto
 
+[Dom Rock - Fluffy Fatec](https://github.com/fluffyfatec/Dom_Rock)
+
 ### Parceiro Acadêmico
+
+Dom Rock
 
 ### Visão do Projeto
 
@@ -49,6 +65,9 @@ Abaixo estão listados os projetos desenvolvidos durante a graduação, detalhan
 ### Contribuições Pessoais
 
 ### Aprendizados Efetivos (Soft e Hard Skills)
+
+
+
 
 # Projeto 3: 2º Semestre de 2022 
 
@@ -241,11 +260,20 @@ Juntos com elas, também se pode ressaltar algumas "hard skills" exigidas para e
 
 Essas habilidades foram relevantes para a parte prática do projeto em si e, com a busca de materiais e trabalho em equipe, cada uma foi aperfeiçoada nesse tempo de desenvolvimento, resultando numa conclusão correta do sistema.
 
+
+
+
 # Projeto 4: 1º Semestre de 2023 
+
+<img src="https://github.com/octopusBD/apiEmbraer4-sem/blob/b92089563bafd98ceac265983ccba1574dacab6e/Imagens%20documentacao/doc/inicial.png" width="60%" height="55%">
 
 ### Reposiório do Projeto
 
+[Embraer - Octopus](https://github.com/octopusBD/apiEmbraer4-sem)
+
 ### Parceiro Acadêmico
+
+Embraer
 
 ### Visão do Projeto
 
@@ -255,11 +283,18 @@ Essas habilidades foram relevantes para a parte prática do projeto em si e, com
 
 ### Aprendizados Efetivos (Soft e Hard Skills)
 
+
+
+
 # Projeto 5: 2º Semestre de 2023 
 
 ### Reposiório do Projeto
 
+[Oracle - Fluffy Fatec](https://github.com/Fluffy-Fatec/Projeto-Integrador-Oracle)
+
 ### Parceiro Acadêmico
+
+Oracle Brasil
 
 ### Visão do Projeto
 
