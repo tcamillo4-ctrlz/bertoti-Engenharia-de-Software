@@ -4,7 +4,7 @@
 
 Olá, seja bem-vindo! Sou o Tiago Camillo, estudante de Banco de Dados pela FATEC São José dos Campos - Prof. Jessen Vidal.
 
-Tenho 19 anos e trabalho como Analista de Negócios Júnior.
+Tenho 20 anos e trabalho como Analista de Negócios Júnior.
 
 ### Meus principais conhecimentos
 
@@ -20,9 +20,58 @@ Tenho utilizado a linguagem de programação Java durante todo o meu tempo de gr
 
 Projeto Integrador tem o objetivo de solucionar um problema da realidade, trazido por alguma empresa em acordo com a entidade de ensino, utilizando os conhecimentos adquiridos durante a graduação.
 
-Abaixo está listado o projeto desenvolvido no 3º Semestre da graduação, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos dele.
+Abaixo estão listados os projetos desenvolvidos durante a graduação, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos dele.
+
+
+
+# Projeto 1: 2º Semestre de 2021 
+
+<img src="https://github.com/fluffyfatec/SPanel/blob/main/Sprint_2/assets/logospanel3.png" width="60%" height="55%">
+
+### Reposiório do Projeto
+
+[SPANEL - Fluffy Fatec](https://github.com/fluffyfatec/SPanel)
+
+### Parceiro Acadêmico
+
+Interno
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
+
+
+# Projeto 2: 1º Semestre de 2022 
+
+<img src="https://github.com/fluffyfatec/Dom_Rock/blob/main/GIT/cabecario2.jpg" width="60%" height="55%">
+
+### Reposiório do Projeto
+
+[Dom Rock - Fluffy Fatec](https://github.com/fluffyfatec/Dom_Rock)
+
+### Parceiro Acadêmico
+
+Dom Rock
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
+
+
 
 # Projeto 3: 2º Semestre de 2022 
+
+<img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/cabecario (3).jpg" width="60%" height="55%">
 
 ### Reposiório do Projeto
 
@@ -37,6 +86,11 @@ IACIT Soluções Tecnológicas
 O desafio foi estipulado como desenvolver um sistema que permita realizar a importação dos dados meteorológicos, bem como armazená-los em uma base de dados, para posteriormente gerar os relatórios desejados por nossos clientes.
 
 Como solução, a equipe desenvolveu um software web para a empresa, que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada. Também é possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. E por último, foram desenvolvidos diferentes níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
+
+Representação da solução do projeto:
+
+<img src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" width="60%" height="55%">
+
 
 ### Tecnologias Adotadas na Solução
 
@@ -72,8 +126,181 @@ Por estar focado nesta parte do projeto, fui encarregado, junto com a equipe de 
 
 O desenvolvimento das telas contou com a linguagem de marcação HTML, junto com a estilização em CSS. A parte lógica da aplicação contou com JavaScript, e em algumas situações, a técnica AJAX.
 
+Exemplos de etapas do desenvolvimento do projeto:
+
+
+<details open>
+<summary>Geração de gráficos</summary>
+<br>
+
+```js
+const ctx = document.getElementById('graficoTemperatura');
+const myChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      datasets: [{
+          label: 'Temperatura',
+          data: [12, 19, 3, 5, 2, 3],
+          backgroundColor: [
+              'rgba(255, 99, 132, 0.2)','rgba(54, 162, 235, 0.2)','rgba(255, 206, 86, 0.2)',
+              'rgba(75, 192, 192, 0.2)','rgba(153, 102, 255, 0.2)','rgba(255, 159, 64, 0.2)'],
+          borderColor: [
+              'rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1)',
+              'rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'],
+          fill: 1
+      }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: { beginAtZero: false }
+    }}
+});
+```
+
+</details>
+
+<details>
+<summary>Exibição de gráficos</summary>
+<br>
+
+``` html
+<div th:replace="~{fragmentCards :: Cards}"></div>
+    <div class="row">
+        <section class="col-lg-12 connectedSortable">
+            <div th:replace="~{fragmentGraficos :: graficoTemperaturaBar}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoTemperaturaLinha}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoUmidadeLinha}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoUmidadeBar}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoVentoLinha}"></div>
+            <div th:replace="~{fragmentGraficos :: graficoVentoBar}"></div>             
+        </section>
+    </div>
+</div>
+```
+
+</details>
+
+<details>
+<summary>Geração de Tabelas</summary>
+<br>
+
+``` js
+var $table = document.getElementById("tabelaPressao"),
+$n = 16,
+$rowCount = $table.rows.length,
+$firstRow = $table.rows[0].firstElementChild.tagName,
+$hasHead = ($firstRow === "TH"),
+$tr = [],
+$i,$ii,$j = ($hasHead)?1:0,
+$th = ($hasHead?$table.rows[(0)].outerHTML:"");
+var $pageCount = Math.ceil($rowCount / $n);
+
+if ($pageCount > 1) {
+  for ($i = $j,$ii = 0; $i < $rowCount; $i++, $ii++)
+    $tr[$ii] = $table.rows[$i].outerHTML;
+  $table.insertAdjacentHTML("afterend","<div id='buttons'></div");
+  sort(1);
+}
+
+function sort($p) {
+  var $rows = $th,$s = (($n * $p)-$n);
+  for ($i = $s; $i < ($s+$n) && $i < $tr.length; $i++)
+    $rows += $tr[$i];
+  
+  $table.innerHTML = $rows;
+  document.getElementById("buttons").innerHTML = pageButtons($pageCount,$p);
+  document.getElementById("id"+$p).setAttribute("class","chart");
+}
+
+function pageButtons($pCount,$cur) {
+  var $prevDis = ($cur == 1)?"disabled":"",
+    $nextDis = ($cur == $pCount)?"disabled":"",
+    $buttons = "<input class='chart' type='button' value='&lt;&lt; Anterior' onclick='sort("+($cur - 1)+")' "+$prevDis+">";
+  for ($i=1; $i<=$pCount;$i++)
+    $buttons += "<input  class='chart' type='button' id='id"+$i+"'value='"+$i+"' onclick='sort("+$i+")'>";
+  $buttons += "<input class='chart' type='button' value='Próximo &gt;&gt;' onclick='sort("+($cur + 1)+")' "+$nextDis+">";
+  return $buttons;
+}
+```
+
+</details>
+
+<details>
+<summary>Filtros dinâmicos</summary>
+
+``` html
+<select class="form-control" id="jsAjaxFiltro" onchange="filtroEstacao()" required>
+    <option value="" selected>Escolha a Estação...</option>
+    <option value="estacao" th:each="zz : ${filtroEstacao}">[[${zz.estacaoNome}]]</option>
+</select>
+```
+
+
+</details>
+
 ### Aprendizados Efetivos (Soft e Hard Skills)
 
-Com o desenvolvimento desse projeto, pude ter a oportunidade de me desenvolver de várias formas, tanto no âmbito acadêmico, como também no profissional e pessoal. Devido a essa experiência, tive o aprendizado e o aperfeiçoamento em áreas como a colaboração/trabalho em equipe, comunicação entre os membros do grupo, a utilização do pensamento crítico, a capacidade de resolução de problemas e a gestão do tempo. Todas essas habilidades foram necessárias para que o grupo pudesse concluir o projeto de forma positiva e eficaz, entregando a solução do projeto. Essas "soft skills" são responsáveis por manter o grupo alinhado e trabalhando junto, cada um com a sua função específica, para que podessemos avançar nas etapas e nos desafios do projeto.
+Com o desenvolvimento desse projeto, pude ter a oportunidade de me desenvolver de várias formas, tanto no âmbito acadêmico, como também no profissional e pessoal. Dentre estas oportunidades, destacam-se:
+- Aprendizado e o aperfeiçoamento em áreas como a colaboração/trabalho em equipe;
+- Comunicação entre os membros do grupo;
+- Utilização do pensamento crítico; 
+- Capacidade de resolução de problemas; 
+- Gestão do tempo. 
 
-Juntos com elas, também se pode ressaltar algumas "hard skills" exigidas para esse projeto, como o conhecimento ligado ao desenvolvimento web, a gestão do banco de dados, configuração de segurança da aplicação, como também o desenvolvimento de usuário e interface do usuário, e a administração do sistema desenvolvido. Essas habilidades foram relevantes para a parte prática do projeto em si e, com a busca de materiais e trabalho em equipe, cada uma foi aperfeiçoada nesse tempo de desenvolvimento, resultando numa conclusão correta do sistema.
+Todas essas habilidades foram necessárias para que o grupo pudesse concluir o projeto de forma positiva e eficaz, entregando a solução do projeto. Essas "soft skills" são responsáveis por manter o grupo alinhado e trabalhando junto, cada um com a sua função específica, para que podessemos avançar nas etapas e nos desafios do projeto.
+
+Juntos com elas, também se pode ressaltar algumas "hard skills" exigidas para esse projeto, como por exemplo:
+- Conhecimento ligado ao desenvolvimento web;
+- Gestão do banco de dados;
+- Configuração de segurança da aplicação;
+- Desenvolvimento de usuário e interface do usuário;
+- Administração do sistema desenvolvido. 
+
+Essas habilidades foram relevantes para a parte prática do projeto em si e, com a busca de materiais e trabalho em equipe, cada uma foi aperfeiçoada nesse tempo de desenvolvimento, resultando numa conclusão correta do sistema.
+
+
+
+
+# Projeto 4: 1º Semestre de 2023 
+
+<img src="https://github.com/octopusBD/apiEmbraer4-sem/blob/b92089563bafd98ceac265983ccba1574dacab6e/Imagens%20documentacao/doc/inicial.png" width="60%" height="55%">
+
+### Reposiório do Projeto
+
+[Embraer - Octopus](https://github.com/octopusBD/apiEmbraer4-sem)
+
+### Parceiro Acadêmico
+
+Embraer
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
+
+
+
+# Projeto 5: 2º Semestre de 2023 
+
+### Reposiório do Projeto
+
+[Oracle - Fluffy Fatec](https://github.com/Fluffy-Fatec/Projeto-Integrador-Oracle)
+
+### Parceiro Acadêmico
+
+Oracle Brasil
+
+### Visão do Projeto
+
+### Tecnologias Adotadas na Solução
+
+### Contribuições Pessoais
+
+### Aprendizados Efetivos (Soft e Hard Skills)
+
